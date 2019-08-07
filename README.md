@@ -1,6 +1,19 @@
 # image-classifier-aipnd
 Image Classifier Project for Data Science Nanodegree (Udacity)
 
+## Overview
+In this project, we train an image classifier to recognize different species of flowers. We can imagine using something like this in a phone app that tells you the name of the flower your camera is looking at. In practice you'd train this classifier, then export it for use in your application. We'll be using [this dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) of 102 flower categories, you can see a few examples below. 
+
+
+The project is broken down into multiple steps:
+
+* Load and preprocess the image dataset
+* Train the image classifier on your dataset
+* Use the trained classifier to predict image content
+
+
+When we've completed this project, we'll have an application that can be trained on any set of labeled images. 
+
 ## Example Commands
 ```
 python train.py --gpu True --learning_rate 0.002 --dropout 0.6 --epochs 3 --arch 'vgg19' --hidden_units 500
